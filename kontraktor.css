@@ -1,0 +1,741 @@
+
+*,
+html{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+
+  background-color: transparent;
+  
+}
+
+.pekerjaanterkini{
+
+  background-color: silver;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.pekerjaanterkini h3{
+  color: orangered;
+  margin-top: 10px;
+}
+.pekerjaanterkini h1{
+  padding: 5px;
+  margin: 10px;
+}
+.wrapper .carousel{
+  white-space: nowrap;
+  overflow: hidden;
+}
+.wrapper{
+  position: inherit;
+  display: flex;
+  text-align: center;
+}
+.carousel img{
+  width: calc(100% / 3);
+  height: 200px;
+  object-fit: cover;
+}
+.wrapper i {
+  margin-top: 90px;
+  justify-content: center;
+  justify-items: center;
+  border-radius: 50%;
+  background-color: aqua;
+  width: 46px;
+  height: 46px;
+  text-align: center;
+  line-height: 46px;
+  user-select: none;
+}
+.wrapper i:first-child{
+  top: 50%;
+  left: -15px;
+}
+.wrapper i:last-child{
+  right:-15px
+}
+.langkahmudah{
+  height: 250px;
+  background-color: orangered;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+
+}
+.fiturlangkah{
+  width: 100%;
+  background-color:orangered;
+  display:flex;
+  justify-content: space-around;
+
+}
+.fiturlangkah i {
+  width: 300px;
+  align-items: center;
+  height: 100px;
+  display: flex;
+  margin: 10px;
+  background-color: rgb(230, 230, 241);
+}
+.fiturlangkah img {
+  background-color: rgb(235, 238, 241);
+  width: 50px;
+  margin: 5px;
+  height: 50px;
+}
+.fiturlangkah p {
+  font-family: sans-serif Arial, Helvetica, sans-serif;
+  font-size: large;
+}
+.fiturlangkah h2 {
+  margin: 10px;
+}
+.utama {
+ width: 100%;
+}
+.atas{ 
+  width: 100%;
+  display:grid;
+  grid-template-columns:30% 30% 20% 20%;
+  grid-template-rows: 50px;
+  grid-template-areas: 
+  "logo . phone email ";
+  
+}
+
+.logo {
+  width:fit-content;
+  height: 100%;
+}
+.phone{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+}
+.p1{
+  height: 50px;
+  justify-content: center;
+  justify-items: center;
+  color: orangered;
+}
+.phone ul{
+  font-size: large;
+  align-items: center;
+  list-style: none;
+  padding: 5px;
+  color: orangered;
+}
+.email{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+
+}
+.email ul{
+  font-size: large;
+  align-items: center;
+  list-style: none;
+  padding: 5px;
+  color: orangered;
+}
+.gambaratashome{
+  width: 100%;
+  justify-content:center;
+  align-items: center;
+  height:fit-content;
+  
+}
+.menu {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color:bisque;
+}  
+.listmenu {  
+  display: none;
+  list-style-type: none;
+  margin: 10px;
+  color: rgb(16, 16, 16);
+ 
+  height: 20px;
+  background-color: bisque;
+  color: black;
+  padding: 2px;
+  width: 100%;
+  border-width: auto;
+  cursor: pointer;
+  text-decoration: none;
+  color: red;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.mengapakami{
+  display: flex;
+  justify-content: space-between;
+  display: block;
+  background-color: silver;
+  text-align: center;
+  padding: 5px;
+}
+.mengapakami h3{
+  color: orangered;
+}
+.mengapakami h1{
+  margin: 10px;
+}
+.keunggulankami{
+  background-color: silver;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 300px 300px;
+  grid-template-areas: 
+  "survey design"
+  "garansi tukang";
+  justify-content: center;
+}
+.keunggulan img{
+  width: 50%;
+  height: 50%;
+  margin: 5px;
+}
+.keunggulan{
+  background-color: white;
+  padding: 5px;
+  justify-content: center;
+  text-align: center;
+  margin: 5px;
+}
+.midle{
+  background-color: silver;
+  display: flex;
+  height: 800px;
+}
+.judulDua{
+  border: solid white 1px;
+  background-color: silver;
+  width: 50%;
+  font-family:arial;
+  font-style: italic;
+  color:orangered;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.judulDua b {
+  padding-top: 25px;
+  font-size: larger;
+}
+.tentang{
+ color: black;
+ margin-top: 10px;
+ font-size: larger;
+ box-sizing: border-box;
+ text-align: center;
+ font-size: larger;
+}
+.portofolio{
+  margin-bottom: 20px;
+  font-family:arial;
+  font-style: italic;
+  font-size: larger;
+  color:orangered;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.containergambar{
+  width: 50%;
+  border: 5px;
+  border: solid ;
+  border-color: white;
+  line-height: 0;
+  overflow: auto;
+  padding: 5%;
+  background-color: silver;
+}
+.besar {
+  width: 100%;
+  height: 40%;
+}
+.gambarkecil{
+  width: 100%;
+  height: 25%;
+}
+.kecil{
+ width: 33%;
+ height: 150px;
+ float: right;
+ border: 2px solid white;
+ box-sizing: border-box;
+}
+.kecil:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  color: white;
+}
+.footer1{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "tentangkami  buletin ";
+  background-color: black;
+  font-size: larger;
+}
+.tentangkami{
+  width: auto;
+  padding: 10px;
+  text-align: center;
+  margin:none;
+  color: bisque;
+  border: solid 1px bisque;
+}
+.footer2{
+  background-color: black;
+}
+.judul-kontak{
+  width: 400px;
+  text-align: center;
+  color: bisqueh;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 50px 350px;
+  grid-template-rows: auto;
+  color: bisque;
+  width: 400px;
+  font-size: larger;
+}
+
+.buletin{
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  color: bisque;
+  border: solid 1px bisque;
+  border-left: none;
+  
+}
+.made{
+  background-color: orangered;
+  width: auto;
+}
+
+
+
+/*estiMasi*/
+.atas-estimasi{
+  display: flex;
+  width: 100%;
+  height: 30px;
+  background-color: bisque;
+  justify-content: space-between;
+}
+.logoatas{
+  width: 100%;
+  height: 100%;
+}
+.estimasi{
+  width: 100%;
+  height: 400px;
+  background-image:url('tembok.jpg');
+  background-size: auto;
+  align-content: center;
+  text-align: center;
+  border: solid bisque;
+}
+.judul2 {
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+.layanan{
+  text-align: center;
+}
+.tabel-layanan{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 150px 150px;
+  grid-template-areas: 
+  "bangun-baru renovasi"
+  "kolam-renang interior";
+  justify-content: center;
+  cursor: pointer;
+}.bangun-baru{
+  background-color: bisque;
+  margin: 5px;
+  height: 90%;
+  cursor: pointer;
+  text-decoration: none;
+}
+.bangun-baru a {
+  text-decoration: none;
+}
+.renovasi{
+  background-color: bisque;
+  margin: 5px;
+  height: 90%;
+}
+.kolam-renang{
+  background-color: bisque;
+  margin: 5px;
+  height: 90%;
+}
+.interior{
+  background-color: bisque;
+  margin:5px;
+  height: 90%;
+}
+.gambarlayanan{
+  width:80%;
+  height: 80%;
+  justify-content: center;
+  padding-top: 5px;
+}
+.footer1{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 60% 40%;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  "tentangkami  buletin ";
+  background-color: black;
+}
+.tentangkami{
+  width: auto;
+  padding: 10px;
+  text-align: center;
+  margin:none;
+  color: bisque;
+  border: solid 1px bisque;
+}
+.footer2{
+  background-color: black;
+}
+.judul-kontak{
+  width: 400px;
+  text-align: center;
+  color: bisqueh;
+}
+
+.info{
+  display: grid;
+  grid-template-columns: 50px 350px;
+  grid-template-rows: auto;
+  color: bisque;
+  width: 400px;
+}
+.buletin{
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  color: bisque;
+  border: solid 1px bisque;
+  border-left: none;
+  
+}
+.made{
+  background-color: orangered;
+  width: auto;
+}
+
+/*form bqngun baru*/
+.headform{
+  text-align: center;
+  padding: 20px;
+}
+/*hubungikami*/
+
+.logoatashubungi{
+  width: 80px;
+  height: 100%;
+}
+.hubungi{
+  width: 100%;
+  height: 400px;
+  background-image:url('tembok.jpg');
+  background-size: auto;
+  align-content: center;
+  text-align: center;
+  border: solid bisque;
+}
+.judul2-hub{
+  text-align: center;
+  padding: 10px;
+}
+.kontakhub{
+  padding-top: 20px;
+  background-color: black;
+  height: 400px;
+}
+.infohub {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: auto;
+  color: bisque;
+  width: 100%px;
+  height: 100%;
+  font-size: xx-large;
+  text-align: center;
+}
+.infohub li  {
+  font-size:xx-large;
+  height: 100%;
+  text-align: center;
+}
+/*testimoni*/
+.container-testimoni{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: blue;
+}
+.gtesti{
+  width: 100%;
+  justify-content: center;
+  border: 10px solid grey;
+  box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width:800px) {
+  .atas{ 
+    width: 100%;
+    display:grid;
+    grid-template-columns:25% 50% 15% 10%;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    "logo search logosearch menu-toggle";
+    
+  }
+  
+  .atas{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    background-color: bisque;
+    justify-content: space-between;
+  }
+  .logo{
+    width: fit-content;
+    height: 90px;
+    background-color: bisque;
+    
+  }
+  .menu-toggle {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px;
+    margin-top: 30px;
+    
+  }
+  .phone{
+    display: none;
+  }
+  .email{
+    display: none;
+  }
+  .input1{
+    display: none;
+  }
+  .logosearch{
+    display: none;
+  }
+  .menu-toggle span {
+    display: block;
+    width: 45px;
+    height: 5px;
+    background-color: black;
+    margin: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    justify-content: center;
+  }
+  .menu-toggle.active span:nth-child(1){
+    transform:translateY(14px) rotate(45deg);
+    
+  }
+  .menu-toggle.active span:nth-child(2){
+    opacity: 0;
+    
+  }
+  .menu-toggle.active span:nth-child(3){
+    transform:translateY(-14px) rotate(-45deg);
+    
+  }
+  .menu{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: bisque;
+    width: 40%;
+    right:-100%;
+    transition: 0.4s;
+  }
+  .listmenu{
+    display: flex;
+    width: 100%;
+    border: solid 0.4px;
+    border-radius: 99px;
+    right: 0;
+    padding: 5px;
+    transition: all 0.4s;
+
+    list-style-type: none;
+    margin: 10px;
+    color: rgb(16, 16, 16);
+   
+    height: 20px;
+    background-color: bisque;
+    color: black;
+    padding: 2px;
+    width: 100%;
+    border-width: auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: red;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  .menu.active{
+    right: 0%;
+  }
+
+ .show{
+  visibility: visible;
+  transition: transform 0.5s;
+  }
+ 
+  .gambaratashome{
+    width:100%;
+    height: fit-content;
+    
+  }
+  .containergambar{
+    width: 100%;
+    height: 100%;
+    overflow: none;
+    border: 5px;
+    border: none ;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .besar {
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+  }
+  .gambarkecil{
+    width: 100%;
+    height: 40%;
+  }
+  .kecil{
+   width: 33%;
+   border: 2px solid white;
+   box-sizing: border-box;
+  }
+  .kecil:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    color: white;
+  }
+  .judulDua{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .footer1{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "tentangkami  buletin ";
+    background-color: black;
+  }
+  .tentangkami{
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin:none;
+    color: bisque;
+    border: solid 1px bisque;
+    font-size: 1rem;
+  }
+  .tentang{
+    font-size: 1rem;
+    padding: 1.2rem;
+  }
+  .footer2{
+    background-color: black;
+  }
+  .judul-kontak{
+    width: 400px;
+    text-align: center;
+    color: bisqueh;
+  }
+  
+  .info{
+    display: grid;
+    grid-template-columns: 50px 350px;
+    grid-template-rows: auto;
+    color: bisque;
+    width: 400px;
+  }
+  .buletin{
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    color: bisque;
+    border: solid 1px bisque;
+    border-left: none;
+    font-size: 1rem;
+    
+  }
+  .made{
+    background-color: red;
+    width: auto;
+  }
+  .langkahmudah{
+    display: none;
+  }
+  .keunggulankami{
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper{
+    width: 80%;
+  }
+  .carousel img {
+    width: calc(100% / 1);
+  }
+  .midle{
+    flex-direction: column;
+  }
+}
